@@ -20,9 +20,6 @@ public partial class App : Application
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {
         MainWindow = new Window();
-#if DEBUG
-        MainWindow.EnableHotReload();
-#endif
 
 
         // Do not repeat app initialization when the Window already has content,
