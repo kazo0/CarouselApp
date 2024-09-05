@@ -10,8 +10,12 @@
 				<Grid>
 					<Grid.RowDefinitions>
 						<RowDefinition Height="*"/>
-						<RowDefinition Height="*"/>
+						<RowDefinition Height="{utu:Responsive Wide='0', Narrow='*'}"/>
 					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*"/>
+						<ColumnDefinition Width="{utu:Responsive Wide='*', Narrow='0'}"/>
+					</Grid.ColumnDefinitions>
 
 					<Grid Background="Tomato">
 						<TextBlock Text="Item 1"
@@ -19,7 +23,8 @@
 											 VerticalAlignment="Center"/>
 					</Grid>
 
-					<TextBlock Grid.Row="1"
+					<TextBlock Grid.Row="{utu:Responsive Wide=0, Narrow=1}"
+										 Grid.Column="{utu:Responsive Wide=1, Narrow=0}"
 										 TextWrapping="Wrap"
 										 Margin="20"
 										 Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at imperdiet lorem, ut vehicula tellus. Duis faucibus vehicula erat, a ullamcorper diam placerat eget."
@@ -29,8 +34,12 @@
 				<Grid>
 					<Grid.RowDefinitions>
 						<RowDefinition Height="*"/>
-						<RowDefinition Height="*"/>
+						<RowDefinition Height="{utu:Responsive Wide='0', Narrow='*'}"/>
 					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*"/>
+						<ColumnDefinition Width="{utu:Responsive Wide='*', Narrow='0'}"/>
+					</Grid.ColumnDefinitions>
 
 					<Grid Background="CornflowerBlue">
 						<TextBlock Text="Item 2"
@@ -38,7 +47,8 @@
 											 VerticalAlignment="Center"/>
 					</Grid>
 
-					<TextBlock Grid.Row="1"
+					<TextBlock Grid.Row="{utu:Responsive Wide=0, Narrow=1}"
+										 Grid.Column="{utu:Responsive Wide=1, Narrow=0}"
 										 TextWrapping="Wrap"
 										 Margin="20"
 										 Text="Curabitur blandit leo in libero mollis posuere. Suspendisse luctus magna erat, et dapibus velit fringilla vel. Vivamus porttitor sodales ante, sit amet condimentum enim facilisis vitae."
@@ -48,8 +58,12 @@
 				<Grid>
 					<Grid.RowDefinitions>
 						<RowDefinition Height="*"/>
-						<RowDefinition Height="*"/>
+						<RowDefinition Height="{utu:Responsive Wide='0', Narrow='*'}"/>
 					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*"/>
+						<ColumnDefinition Width="{utu:Responsive Wide='*', Narrow='0'}"/>
+					</Grid.ColumnDefinitions>
 
 					<Grid Background="Goldenrod">
 						<TextBlock Text="Item 3"
@@ -57,7 +71,8 @@
 											 VerticalAlignment="Center"/>
 					</Grid>
 
-					<TextBlock Grid.Row="1"
+					<TextBlock Grid.Row="{utu:Responsive Wide=0, Narrow=1}"
+										 Grid.Column="{utu:Responsive Wide=1, Narrow=0}"
 										 TextWrapping="Wrap"
 										 Margin="20"
 										 Text="Nam bibendum a justo eu luctus. Aliquam sagittis risus non consequat aliquam. Donec mattis ante sit amet dui interdum, et condimentum metus viverra."
