@@ -33,6 +33,7 @@
       https://aka.platform.uno/singleproject-features
     -->
     <UnoFeatures>
+      Toolkit;
     </UnoFeatures>
   </PropertyGroup>
 
