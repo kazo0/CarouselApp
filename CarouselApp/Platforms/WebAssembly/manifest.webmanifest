@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "CarouselApp",
+  "display": "standalone",
+  "name": "CarouselApp",
+  "short_name": "CarouselApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
